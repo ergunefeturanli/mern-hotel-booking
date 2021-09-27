@@ -30,14 +30,14 @@ ________________________________________________________________________________
 _________________________________________________________________________________________________________________________________________________________________________________
 EXAMPLE POSTMAN COLLECTION
 https://www.postman.com/collections/fa7e4a6f0caaa1c4fca8
-
-Need to be added
--Creating Random Reservation Number
--Admin Approve and Reject utility
--Backend Login authorization with JWT
--Not logging out with hardcode JWT
--Register as normal user
--Fetching only available hotel, it needs to be added to hotelsUtils
--Date information validations (checkInDate < checkOutDate)
--Showing Less Detailed Date Information
--Style and etc.
+_________________________________________________________________________________________________________________________________________________________________________________
+*Need to be added
+*Creating Random Reservation Number
+*Admin Approve and Reject utility
+*Backend Login authorization with JWT
+*Not logging out with hardcode JWT
+*Register as normal user
+*Fetching only available hotel, it needs to be added to hotelsUtils
+*Date information validations (checkInDate < checkOutDate)
+*Showing Less Detailed Date Information
+*Style and etc.
