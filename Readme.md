@@ -41,3 +41,6 @@ ________________________________________________________________________________
 *Date information validations (checkInDate < checkOutDate)
 *Showing Less Detailed Date Information
 *Style and etc.
+
+
+
