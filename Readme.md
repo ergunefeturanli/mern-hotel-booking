@@ -1,17 +1,17 @@
 #Hotel Booking Project Using MERN Stack
-___________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________
 Prerequisites
 *This project consist two project, client(frontend) and api(backend)
 *First of all you need to go both project and install npm packages with "npm install"
 *This project contain 2 enviorement, MONGO_URL and JWT_SECRET. There is a .env.example file for example. You need to create a .env file and insert enviorements into it.
-___________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________
 Installation
 *To start the backend side of this project you need to go "/api" folder from terminal and type "npm start dev", this is recommended as first step.
 *To start the frontend side of this project you need to go "/client" folder from terminal and type "npm start", this side is created with create-react-app.
-___________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________
 Routes
 This application uses 3 different route with express
-___________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________
 * "/api/hotel" endpoint with 2 request
 - GET "/api/hotel" --> It brings you the hotels with seach criterias
 - POST "/api/hotel" --> It adds a new hotel to DB. It takes { name*, isAvaible*(default=true) } json data as argument. This can not be used at the browser side.
@@ -31,16 +31,13 @@ ________________________________________________________________________________
 EXAMPLE POSTMAN COLLECTION
 https://www.postman.com/collections/fa7e4a6f0caaa1c4fca8
 _________________________________________________________________________________________________________________________________________________________________________________
-*Need to be added
-*Creating Random Reservation Number
-*Admin Approve and Reject utility
-*Backend Login authorization with JWT
-*Not logging out with hardcode JWT
-*Register as normal user
-*Fetching only available hotel, it needs to be added to hotelsUtils
-*Date information validations (checkInDate < checkOutDate)
-*Showing Less Detailed Date Information
-*Style and etc.
-
-
-
+---Need to be added
+---Creating Random Reservation Number
+---Admin Approve and Reject utility
+---Backend Login authorization with JWT
+---Not logging out with hardcode JWT
+---Register as normal user
+---Fetching only available hotel, it needs to be added to hotelsUtils
+---Date information validations (checkInDate < checkOutDate)
+---Showing Less Detailed Date Information
+---Style and etc.
